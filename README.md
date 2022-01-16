@@ -79,5 +79,5 @@ $ vagrant destroy
 
 | System | IP | $ | password | # | password |
 |---|---|:---:|:---:|:---:|:---:|
-|`server1.lab.local`|192.168.4.210|`user`|`password`|`root`|`password`|
-|`server2.lab.local`|192.168.4.220|`user`|`password`|`root`|`password`|
+|`server1.lab.local`|192.168.56.210|`user`|`password`|`root`|`password`|
+|`server2.lab.local`|192.168.56.220|`user`|`password`|`root`|`password`|
