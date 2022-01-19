@@ -44,10 +44,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
         # Add two more disks
         unless File.exist?(second_disk)
-          vb.customize ['createhd', '--filename', second_disk, '--variant', 'Fixed', '--size', 4 * 1024]
+          vb.customize ['createhd', '--filename', second_disk, '--variant', 'Fixed', '--size', 16 * 1024]
         end
         unless File.exist?(third_disk)
-          vb.customize ['createhd', '--filename', third_disk, '--variant', 'Fixed', '--size', 4 * 1024]
+          vb.customize ['createhd', '--filename', third_disk, '--variant', 'Fixed', '--size', 16 * 1024]
         end
 
         # attach the new disks
