@@ -6,13 +6,13 @@ This repo contains a lab environment used for RHCSA training.
 
 ## Systems
 
-- `server1.lab.local`:
+- `server1`:
    - OS: CentOS 8
-   - IP: `192.168.56.210`
+   - IP: `192.168.0.110`
 
-- `server2.lab.local`:
+- `server2`:
    - OS: CentOS 8
-   - IP: `192.168.56.220`
+   - IP: `192.168.0.120`
 
 ## Dependencies
 
@@ -51,7 +51,7 @@ $ vagrant up $MACHINE_NAME
 $ vagrant ssh $MACHINE_NAME
 ```
 
-Replace `$MACHINE_NAME` with either `server1.lab.local` or `server2.lab.local`...
+Replace `$MACHINE_NAME` with either `server1` or `server2`...
 
 ## Shutdown:
 
@@ -67,7 +67,7 @@ $ vagrant halt
 $ vagrant halt $MACHINE_NAME
 ```
 
-Replace `$MACHINE_NAME` with either `server1.lab.local` or `server2.lab.local`...
+Replace `$MACHINE_NAME` with either `server1` or `server2`...
 
 ## Reset all the things
 
@@ -79,5 +79,5 @@ $ vagrant destroy
 
 | System | IP | $ | password | # | password |
 |---|---|:---:|:---:|:---:|:---:|
-|`server1.lab.local`|192.168.56.210|`user`|`password`|`root`|`password`|
-|`server2.lab.local`|192.168.56.220|`user`|`password`|`root`|`password`|
+|`server1`|192.168.0.110|`user1`|`password`|`root`|`password`|
+|`server2`|192.168.0.120|`user1`|`password`|`root`|`password`|
